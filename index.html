@@ -1,131 +1,179 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>EGO Shisha Bar & Lounge</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header .logo {
+      color: gold;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .menu-section {
+      padding: 20px;
+    }
+    .menu-section h2 {
+      color: gold;
+      text-align: center;
+    }
+    .menu-category {
+      margin-bottom: 30px;
+    }
+    .menu-category h3 {
+      color: #fff;
+      border-bottom: 1px solid gold;
+      padding-bottom: 5px;
+    }
+    .menu-category ul {
+      list-style: none;
+      padding: 0;
+    }
+    .menu-category li {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #333;
+    }
+    .menu-category span {
+      color: gold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <div class="logo">EGO SHISHA</div>
-    <nav>
-      <ul>
-        <li><a href="#home">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#galeria">Galeria</a></li>
-        <li><a href="#eventos">Eventos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+    <div class="logo">EGO SHISHA BAR & LOUNGE</div>
   </header>
 
-  <section id="home" class="hero">
-    <h1>Bem-vindo ao EGO</h1>
-    <p>Luxo. Exclusividade. Experiência Única.</p>
-  </section>
-
-  <section id="sobre">
-    <h2>Sobre Nós</h2>
-    <p>O EGO Shisha Bar & Lounge é o ponto de encontro perfeito para noites inesquecíveis em Lisboa. Shishas premium, cocktails exclusivos e ambiente sofisticado no coração do Parque das Nações.</p>
-  </section>
-
-  <section id="menu">
+  <section id="menu" class="menu-section">
     <h2>Menu</h2>
-    <div class="menu-categoria">
-      <h3>Cocktails</h3>
-      <ul>
-        <li>Caipirinha - 8€</li>
-        <li>Margarita - 9€</li>
-        <li>Negroni - 10€</li>
-        <li>Espresso Martini - 10€</li>
-        <li>Moscow Mule - 10€</li>
-        <li>Piña Colada - 9€</li>
-        <li>Long Island Iced Tea - 12€</li>
-        <li>Tequila Sunrise - 9€</li>
-        <li>Aperol Spritz - 9€</li>
-        <li>Sours (vodka, rum, whiskey) - 10€</li>
-        <li>Black Russian - 9€</li>
-        <li>Old Fashioned - 12€</li>
-        <li>Caipiblack (cachaça preta) - 9€</li>
-        <li>Daiquiri (morango/maracujá) - 9€</li>
-      </ul>
-    </div>
+    <p style="text-align:center;">Conheça a nossa carta exclusiva de cocktails, mocktails, vinhos e shishas.</p>
 
-    <div class="menu-categoria">
-      <h3>Shishas</h3>
-      <ul>
-        <li>A Way / Baku Nights / Dragon Code / I’ss Boni / Lady Killer - 15€</li>
-        <li>Love / Mi Amor / Rapsody - 15€</li>
-        <li>Sabores da casa (Ice Pineapple, Ice Blueberry, Ice Bonbon) - 17€</li>
-      </ul>
-    </div>
+    <h3>Cocktails Clássicos</h3>
+<ul>
+  <li><strong>Caipirinha Clássica</strong> - 10€</li>
+  <li><strong>Caipiblack</strong> - 12€</li>
+  <li><strong>Caipirinha de Maracujá</strong> - 12€</li>
+  <li><strong>Caipirinha de Frutos Vermelhos</strong> - 12€</li>
+  <li><strong>Mojito Clássico</strong> - 10€</li>
+  <li><strong>Morangoska</strong> - 11€</li>
+  <li><strong>Daiquiri de Morango / Maracujá</strong> - 12€</li>
+  <li><strong>Margarita</strong> - 10€</li>
+  <li><strong>Tequila Sunrise</strong> - 9€</li>
+  <li><strong>Piña Colada</strong> - 10€</li>
+</ul>
 
-    <div class="menu-categoria">
-      <h3>Fast Food & Petiscos</h3>
-      <ul>
-        <li>Mix de frutos secos - 3€</li>
-        <li>Azeitonas marinadas - 3€</li>
-        <li>Camarão salteado - 11€</li>
-        <li>Pica Pau (carne, alho, azeitona) - 9€</li>
-        <li>Coração de frango - 8€</li>
-        <li>Tosta mista com molho da casa - 5€</li>
-        <li>Mini hambúrguer (duplo, com bacon, molho da casa) - 5€</li>
-      </ul>
-    </div>
+    <h3>Cocktails Premium</h3>
+<ul>
+  <li><strong>Espresso Martini</strong> - 12€</li>
+  <li><strong>Long Island Iced Tea</strong> - 10€</li>
+  <li><strong>Negroni</strong> - 12€</li>
+  <li><strong>Black Russian</strong> - 11€</li>
+  <li><strong>Old Fashioned</strong> - 12€</li>
+  <li><strong>Pimm's</strong> - 11€</li>
+  <li><strong>Aperol Spritz</strong> - 12€</li>
+  <li><strong>Moscow Mule</strong> - 11€</li>
+</ul>
 
-    <div class="menu-categoria">
-      <h3>Vinhos</h3>
-      <ul>
-        <li>Altitude – Copo / 17€ (garrafa)</li>
-        <li>Papa Figos – Copo / 18€</li>
-        <li>Poça Roupa – 4€ (copo) / 15€ (garrafa)</li>
-        <li>Herdade dos Grous – 25€</li>
-        <li>Herdade do Pêgo Reserva – 25€</li>
-        <li>Ermelinda Syrah – 20€</li>
-        <li>Carm Reserva – 25€</li>
-      </ul>
-    </div>
+    <h3>Sours (com clara de ovo)</h3>
+<ul>
+  <li><strong>Whiskey Sour</strong> - 11€</li>
+  <li><strong>Rum Sour</strong> - 11€</li>
+  <li><strong>Vodka Sour</strong> - 11€</li>
+</ul>
 
-    <div class="menu-categoria">
-      <h3>Espumantes & Champanhes</h3>
-      <ul>
-        <li>Bellini Cipriani – 70€</li>
-        <li>Belaire Rosé – 90€</li>
-        <li>Belaire Luxe – 120€</li>
-        <li>Moët & Chandon – 150€</li>
-        <li>Veuve Clicquot Brut – 165€</li>
-        <li>Laurent-Perrier La Cuvée – 140€</li>
-        <li>Ruinart – 200€</li>
-        <li>G.H. Mumm Cordon Rouge – 150€</li>
-        <li>Dom Pérignon Vintage – (consultar equipa)</li>
-      </ul>
-    </div>
-  </section>
+    <h3>Assinaturas EGO</h3>
+<ul>
+  <li><strong>Spicy Mango</strong> - 12€</li>
+  <li><strong>Dark Mango</strong> - 12€</li>
+  <li><strong>Narcotik</strong> - 15€</li>
+  <li><strong>Nypnotik</strong> - 15€</li>
+  <li><strong>Patrón Margarita</strong> - 13€</li>
+</ul>
 
-  <section id="contato">
-    <h2>Contato & Reservas</h2>
-    <form>
-      <input type="text" placeholder="Seu Nome" required>
-      <input type="email" placeholder="Seu Email" required>
-      <textarea placeholder="Mensagem ou pedido de reserva"></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-    <p>📍 Alameda dos Oceanos 13E, Parque das Nações, Lisboa</p>
-    <p>🕒 Terça a Domingo | 18h às 02h</p>
-    <p>📱 <a href="https://instagram.com/egoshishabar" target="_blank">@egoshishabar</a></p>
-  </section>
+    <h3>Mocktails (sem álcool)</h3>
+<ul>
+  <li><strong>Sweet Strawberry</strong> - 8€</li>
+  <li><strong>Virgin Mojito</strong> - 8€</li>
+  <li><strong>Berry Mule</strong> - 8€</li>
+  <li><strong>Virgin Mary</strong> - 8€</li>
+  <li><strong>Blue Garden EGO</strong> - 8€</li>
+  <li><strong>Red Passion</strong> - 8€</li>
+  <li><strong>EGO Sunrise</strong> - 8€</li>
+  <li><strong>Limonada EGO</strong> - 6€</li>
+</ul>
 
-  <section id="qr-code" style="text-align: center; padding: 2rem;">
-    <h2>Siga-nos no Instagram</h2>
-    <p>Fique por dentro dos eventos, promoções e noites exclusivas.</p>
-    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://instagram.com/egoshishabar" alt="QR Code Instagram">
-    <p>@egoshishabar</p>
+    <h3>Vinhos</h3>
+<ul>
+  <li><strong>Altitude Tinto</strong> - 17€</li>
+  <li><strong>Papa Figos</strong> - 18€</li>
+  <li><strong>Poça Roupa (copo)</strong> - 4€</li>
+  <li><strong>Poça Roupa (garrafa)</strong> - 15€</li>
+  <li><strong>Herdade dos Grous</strong> - 25€</li>
+  <li><strong>Herdade do Pego Reserva</strong> - 25€</li>
+  <li><strong>Ermelinda Syrah</strong> - 20€</li>
+  <li><strong>Carm Reserva</strong> - 25€</li>
+  <li><strong>Altitude Branco</strong> - 17€</li>
+  <li><strong>Carm Branco Reserva</strong> - 25€</li>
+</ul>
+
+    <h3>Refrigerantes & Cervejas</h3>
+<ul>
+  <li><strong>Super Bock</strong> - 2,80€</li>
+  <li><strong>Sagres Mini</strong> - 2,50€</li>
+  <li><strong>Bandida do Pomar</strong> - 3€</li>
+  <li><strong>Somersby</strong> - 3€</li>
+  <li><strong>Imperial Copo Pequeno</strong> - 1,80€</li>
+  <li><strong>Imperial Copo Grande</strong> - 3,60€</li>
+</ul>
+
+    <h3>Espumantes & Champanhes</h3>
+<ul>
+  <li><strong>Espumante Sangria (jarro)</strong> - 25€</li>
+  <li><strong>Moët & Chandon</strong> - 150€</li>
+  <li><strong>Veuve Clicquot Brut</strong> - 165€</li>
+  <li><strong>Dom Pérignon Vintage</strong> - Consultar</li>
+  <li><strong>Laurent-Perrier La Cuvée</strong> - 140€</li>
+  <li><strong>Ruinart</strong> - 200€</li>
+  <li><strong>G.H. Mumm - Cordon Rouge</strong> - 150€</li>
+  <li><strong>Belaire Rosé</strong> - 90€</li>
+  <li><strong>Belaire Luxe</strong> - 120€</li>
+  <li><strong>Bellini Cipriani</strong> - 70€</li>
+</ul>
+
+    <h3>Shishas Adalya</h3>
+<ul>
+  <li><strong>Ice Bonbon (Adalya)</strong> - 20€</li>
+  <li><strong>Lady Killer (Adalya)</strong> - 20€</li>
+  <li><strong>Love (Adalya)</strong> - 20€</li>
+  <li><strong>Mi Amor (Adalya)</strong> - 20€</li>
+  <li><strong>Havaí (Adalya)</strong> - 20€</li>
+</ul>
+
   </section>
 
   <footer>
     <p>&copy; 2025 EGO Shisha Bar & Lounge. Todos os direitos reservados.</p>
   </footer>
+
 </body>
 </html>
