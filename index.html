@@ -1,111 +1,131 @@
-
 <!DOCTYPE html>
-<html lang="pt-PT">
+<html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EGO Shisha Bar & Lounge | Inauguração em Lisboa</title>
-    <meta name="description" content="Descubra o EGO Shisha Bar & Lounge, o novo ponto de encontro elegante em Lisboa. Inauguração em 17 de maio com DJ todos os dias e o primeiro drink grátis!">
-    <meta name="keywords" content="EGO Shisha Bar, bar em Lisboa, lounge, DJ em Lisboa, narguilé, drinks, Parque das Nações, bar elegante">
-    <meta name="author" content="EGO Shisha Bar & Lounge">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap">
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        body {
-            margin: 0;
-            font-family: 'Open Sans', sans-serif;
-            background-color: #0d1b2a;
-            color: white;
-        }
-        header {
-            background-color: #1b263b;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5em;
-            color: #f0c808;
-            margin: 0;
-        }
-        nav {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            background-color: #415a77;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            display: inline-block;
-        }
-        nav a:hover {
-            background-color: #f0c808;
-            color: #0d1b2a;
-        }
-        .hero {
-            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('background-placeholder.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 80vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 0 20px;
-        }
-        .hero h2 {
-            font-size: 2.2em;
-            color: white;
-            margin-bottom: 15px;
-        }
-        .hero p {
-            font-size: 1.1em;
-            max-width: 600px;
-            color: #f0c808;
-        }
-        footer {
-            background-color: #1b263b;
-            text-align: center;
-            padding: 20px;
-            font-size: 0.9em;
-        }
-
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 1.8em;
-            }
-            .hero h2 {
-                font-size: 1.5em;
-            }
-            .hero p {
-                font-size: 1em;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EGO Shisha Bar & Lounge</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>EGO Shisha Bar & Lounge</h1>
-    </header>
+  <header>
+    <div class="logo">EGO SHISHA</div>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="cardapio.html">Cardápio</a>
-        <a href="#">Galeria</a>
-        <a href="#">Reservas</a>
-        <a href="#">Contato</a>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
     </nav>
-    <section class="hero">
-        <h2>Inauguração em 17 de Maio</h2>
-        <p>Viva a experiência do novo bar mais elegante de Lisboa. DJ todos os dias, ambiente exclusivo e o primeiro drink é por nossa conta.</p>
-    </section>
-    <footer>
-        Alameda dos Oceanos 13 E, Parque das Nações, Lisboa | 17h às 02h | Instagram: @egoshishabar
-    </footer>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Bem-vindo ao EGO</h1>
+    <p>Luxo. Exclusividade. Experiência Única.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>O EGO Shisha Bar & Lounge é o ponto de encontro perfeito para noites inesquecíveis em Lisboa. Shishas premium, cocktails exclusivos e ambiente sofisticado no coração do Parque das Nações.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Menu</h2>
+    <div class="menu-categoria">
+      <h3>Cocktails</h3>
+      <ul>
+        <li>Caipirinha - 8€</li>
+        <li>Margarita - 9€</li>
+        <li>Negroni - 10€</li>
+        <li>Espresso Martini - 10€</li>
+        <li>Moscow Mule - 10€</li>
+        <li>Piña Colada - 9€</li>
+        <li>Long Island Iced Tea - 12€</li>
+        <li>Tequila Sunrise - 9€</li>
+        <li>Aperol Spritz - 9€</li>
+        <li>Sours (vodka, rum, whiskey) - 10€</li>
+        <li>Black Russian - 9€</li>
+        <li>Old Fashioned - 12€</li>
+        <li>Caipiblack (cachaça preta) - 9€</li>
+        <li>Daiquiri (morango/maracujá) - 9€</li>
+      </ul>
+    </div>
+
+    <div class="menu-categoria">
+      <h3>Shishas</h3>
+      <ul>
+        <li>A Way / Baku Nights / Dragon Code / I’ss Boni / Lady Killer - 15€</li>
+        <li>Love / Mi Amor / Rapsody - 15€</li>
+        <li>Sabores da casa (Ice Pineapple, Ice Blueberry, Ice Bonbon) - 17€</li>
+      </ul>
+    </div>
+
+    <div class="menu-categoria">
+      <h3>Fast Food & Petiscos</h3>
+      <ul>
+        <li>Mix de frutos secos - 3€</li>
+        <li>Azeitonas marinadas - 3€</li>
+        <li>Camarão salteado - 11€</li>
+        <li>Pica Pau (carne, alho, azeitona) - 9€</li>
+        <li>Coração de frango - 8€</li>
+        <li>Tosta mista com molho da casa - 5€</li>
+        <li>Mini hambúrguer (duplo, com bacon, molho da casa) - 5€</li>
+      </ul>
+    </div>
+
+    <div class="menu-categoria">
+      <h3>Vinhos</h3>
+      <ul>
+        <li>Altitude – Copo / 17€ (garrafa)</li>
+        <li>Papa Figos – Copo / 18€</li>
+        <li>Poça Roupa – 4€ (copo) / 15€ (garrafa)</li>
+        <li>Herdade dos Grous – 25€</li>
+        <li>Herdade do Pêgo Reserva – 25€</li>
+        <li>Ermelinda Syrah – 20€</li>
+        <li>Carm Reserva – 25€</li>
+      </ul>
+    </div>
+
+    <div class="menu-categoria">
+      <h3>Espumantes & Champanhes</h3>
+      <ul>
+        <li>Bellini Cipriani – 70€</li>
+        <li>Belaire Rosé – 90€</li>
+        <li>Belaire Luxe – 120€</li>
+        <li>Moët & Chandon – 150€</li>
+        <li>Veuve Clicquot Brut – 165€</li>
+        <li>Laurent-Perrier La Cuvée – 140€</li>
+        <li>Ruinart – 200€</li>
+        <li>G.H. Mumm Cordon Rouge – 150€</li>
+        <li>Dom Pérignon Vintage – (consultar equipa)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato & Reservas</h2>
+    <form>
+      <input type="text" placeholder="Seu Nome" required>
+      <input type="email" placeholder="Seu Email" required>
+      <textarea placeholder="Mensagem ou pedido de reserva"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p>📍 Alameda dos Oceanos 13E, Parque das Nações, Lisboa</p>
+    <p>🕒 Terça a Domingo | 18h às 02h</p>
+    <p>📱 <a href="https://instagram.com/egoshishabar" target="_blank">@egoshishabar</a></p>
+  </section>
+
+  <section id="qr-code" style="text-align: center; padding: 2rem;">
+    <h2>Siga-nos no Instagram</h2>
+    <p>Fique por dentro dos eventos, promoções e noites exclusivas.</p>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://instagram.com/egoshishabar" alt="QR Code Instagram">
+    <p>@egoshishabar</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EGO Shisha Bar & Lounge. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
